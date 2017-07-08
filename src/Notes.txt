@@ -1,0 +1,20 @@
+Commands:
+
+groovyc 
+groovy
+groovysh
+groovyConsole
+java2groovy
+groovy2java
+startGroovy
+
+	
+Groovy automatically imports the following packages and classes which can be used in Groovy without specifying the package name.
+	groovy.lang.*
+	groovy.util.*
+	java.lang.*
+	java.util.*
+	java.net.*
+	java.io.*
+	java.math.BigInteger
+	java.math.BigDecimal
