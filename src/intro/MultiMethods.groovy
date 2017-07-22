@@ -8,4 +8,4 @@ int method(Object arg) {
 }
 Object o = "Object";
 int result = method(o);
-print result
+println result

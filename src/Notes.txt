@@ -8,7 +8,8 @@ java2groovy
 groovy2java
 startGroovy
 
-	
+HelloWorld.groovy
+
 Groovy automatically imports the following packages and classes which can be used in Groovy without specifying the package name.
 	groovy.lang.*
 	groovy.util.*
@@ -18,3 +19,30 @@ Groovy automatically imports the following packages and classes which can be use
 	java.io.*
 	java.math.BigInteger
 	java.math.BigDecimal
+	
+AutoConversion
+
+MultiMethod.groovy
+
+GString.groovy
+
+Looping.groovy
+
+WorkingWithMap.groovy
+
+NetworkIO
+
+Grape with junit
+
+// https://mvnrepository.com/artifact/junit/junit
+@Grapes(
+@Grab(group='junit', module='junit', version='4.12', scope='test')
+)
+
+SpecialWords.groovy it, as
+CategoryMain.groovy use
+ObjectWith with - run in console
+
+
+
+
