@@ -8,7 +8,20 @@ java2groovy
 groovy2java
 startGroovy
 
-HelloWorld.groovy
+echo "System.out.println(\"Welcome JAX\");" > HelloWorld.groovy
+groovyc HelloWorld.groovy
+groovy HellowWorld
+java HelloWorld
+java -cp .;%GROOVY_HOME%\embeddable\groovy-all-2.4.12.jar HelloWorld
+
+groovysh
+	http://www.groovy-lang.org/groovysh.html
+	println 'Hello'
+	:exit
+
+groovyConsole
+
+
 
 Groovy automatically imports the following packages and classes which can be used in Groovy without specifying the package name.
 	groovy.lang.*
@@ -30,6 +43,8 @@ Looping.groovy
 
 WorkingWithMap.groovy
 
+Function.groovy
+
 NetworkIO
 
 Grape with junit
@@ -42,6 +57,9 @@ Grape with junit
 SpecialWords.groovy it, as
 CategoryMain.groovy use
 ObjectWith with - run in console
+
+WorkingWithXML.groovy
+WorkingWithREST.groovy
 
 
 
