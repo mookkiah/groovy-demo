@@ -1,7 +1,7 @@
 package intro
 
 /**
- * Strings with double quotes are considered as groovy.lang.GString
+ * Strings with embedded values are considered as GString
  * 
  * @author mookkiahm
  *
@@ -18,8 +18,5 @@ def greet = "Hello"
 for (int i; i < members.size(); i++) {  // For Demo int -> def, no parenthesis
 	println "$greet ${members[i]}"  // For Demo
 }
-
-println "------------------"
-members.eachWithIndex {member, index -> println members[index]}
 
 
